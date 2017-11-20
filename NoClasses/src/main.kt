@@ -1,6 +1,5 @@
 import java.io.FileReader
 import java.util.*
-import javax.print.attribute.IntegerSyntax
 
 fun main(args: Array<String>) {
     println("Hello, World")
@@ -69,11 +68,6 @@ fun main(args: Array<String>) {
     val chars = 'A'..'z'
     for(c in chars) {
         print(c)
-    }
-
-    val reader = FileReader("filename")
-    for(line in reader.readLines()) {
-
     }
 }
 
